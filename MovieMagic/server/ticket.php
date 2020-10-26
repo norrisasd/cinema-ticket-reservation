@@ -17,7 +17,7 @@
         
         $ID = mysqli_real_escape_string($db,$ID);
 
-        $query = "INSERT into `ticket` (movies, adult, children, special,ID) VALUES('$movie', '$adult','$children','$special','$ID')";
+        $query = "INSERT into ticket (movies, adult, children, special,ID) VALUES('$movie', '$adult','$children','$special','$ID')";
         $result = mysqli_query($db,$query);
         if($result){
             echo '<script>
