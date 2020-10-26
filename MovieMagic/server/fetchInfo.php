@@ -1,8 +1,5 @@
 <?php
-    $db = mysqli_connect('localhost','root','','movie');
-    if (!$db) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
+    include 'conn.php';
     $session_username = $_SESSION['username'];
     $query = "SELECT * FROM `user` WHERE username='$session_username'";
     $result = mysqli_query($db,$query) or die(mysqli_error($db));

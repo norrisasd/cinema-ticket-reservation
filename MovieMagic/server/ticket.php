@@ -1,8 +1,5 @@
 <?php
-    $db = mysqli_connect('localhost','root','','movie');
-    if (!$db) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
+    include 'conn.php';
     include 'fetchInfo.php';
     if (isset($_REQUEST['reserve'])){
         $movie = stripslashes($_REQUEST['movies']);

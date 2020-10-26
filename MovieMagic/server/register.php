@@ -1,8 +1,5 @@
 <?php
-    $db = mysqli_connect('localhost','root','','movie');
-    if (!$db) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
+    include 'conn.php';
     if (isset($_REQUEST['username'])){
         $username = stripslashes($_REQUEST['username']);
         $username = mysqli_real_escape_string($db,$username); 
