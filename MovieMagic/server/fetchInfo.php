@@ -1,7 +1,7 @@
 <?php
     include 'conn.php';
     $session_username = $_SESSION['username'];
-    $query = "SELECT * FROM `user` WHERE username='$session_username'";
+    $query = "SELECT * FROM user WHERE username='$session_username'";
     $result = mysqli_query($db,$query) or die(mysqli_error($db));
     $resCheck = mysqli_num_rows($result);
     if($resCheck>0){
