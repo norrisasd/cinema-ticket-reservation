@@ -1,9 +1,9 @@
 <?php 
     // development connection   
     // $host="remotemysql.com";
-    // $user="NJmpAKp3n4";
-    // $pass="f7voxHjh3q";
-    // $data="NJmpAKp3n4";
+    // $user="mhqemp7H6Z";
+    // $pass="TiUbD1D6UY";
+    // $data="mhqemp7H6Z";
     //local
     $host="localhost";
     $user="root";
