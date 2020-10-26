@@ -7,7 +7,7 @@
             </div>
             <div class="modal-body" id="modalBody">
             <form>
-                <img src="Poster/BW.jpg" alt="Black Widow" id="image">
+                <img src="Poster/BW.jpg" alt="Posters" id="image">
                 <h3 style="text-align:center;">Movies</h3>
                 <div class="dropdown" style="text-align:center;">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:50%" >
