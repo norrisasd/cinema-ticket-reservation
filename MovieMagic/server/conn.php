@@ -1,14 +1,14 @@
 <?php 
     // development connection   
-    $host="remotemysql.com";
-    $user="mhqemp7H6Z";
-    $pass="8mZ9UohXIm";
-    $data="mhqemp7H6Z";
+    // $host="remotemysql.com";
+    // $user="NJmpAKp3n4";
+    // $pass="f7voxHjh3q";
+    // $data="NJmpAKp3n4";
     //local
-//     $host="localhost";
-//     $user="root";
-//     $pass="";
-//     $data="movie";
+    $host="localhost";
+    $user="root";
+    $pass="";
+    $data="movie";
     $db = mysqli_connect($host,$user,$pass,$data);
     if (!$db) {
         die("Connection failed: " . mysqli_connect_error());
