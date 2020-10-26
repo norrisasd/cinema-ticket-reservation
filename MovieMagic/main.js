@@ -67,7 +67,7 @@ var pic=document.getElementById("image");
 function BW(){
   var a= document.getElementById("ddText");
   a.innerHTML="Black Widow";
-  pic.src="Poster/BW.jpg";
+  pic.src="POSTER/BW.jpg";
   var b=document.getElementById("Movie");
   b.value="Black Widow";
   var d=document.getElementById("Movie1");
@@ -76,7 +76,7 @@ function BW(){
 function BS(){
     var a= document.getElementById("ddText");
     a.innerHTML="Bloodshot";
-    pic.src="Poster/BS.jpg";
+    pic.src="POSTER/BS.jpg";
     var b=document.getElementById("Movie");
     b.value="Bloodshot";
   var d=document.getElementById("Movie1");
@@ -85,7 +85,7 @@ function BS(){
 function BBFL(){
     var a= document.getElementById("ddText");
     a.innerHTML="Bad Boys For Life";
-    pic.src="Poster/BBFL.jpg";
+    pic.src="POSTER/BBFL.jpg";
     var b=document.getElementById("Movie");
     b.value="Bad Boys For Life";
   var d=document.getElementById("Movie1");
@@ -94,7 +94,7 @@ function BBFL(){
 function OW(){
     var a= document.getElementById("ddText");
     a.innerHTML="Onward";
-    pic.src="Poster/OW.jpg";
+    pic.src="POSTER/OW.jpg";
     var b=document.getElementById("Movie");
     b.value="Onward";
   var d=document.getElementById("Movie1");
@@ -103,7 +103,7 @@ function OW(){
 function UW(){
     var a= document.getElementById("ddText");
     a.innerHTML="Underwater";
-    pic.src="Poster/UW.jpg";
+    pic.src="POSTER/UW.jpg";
     var b=document.getElementById("Movie");
     b.value="Underwater";
   var d=document.getElementById("Movie1");
@@ -112,7 +112,7 @@ function UW(){
 function EH(){
     var a= document.getElementById("ddText");
     a.innerHTML="Enola Holmes";
-    pic.src="Poster/EH.webp";
+    pic.src="POSTER/EH.webp";
     var b=document.getElementById("Movie");
     b.value="Enola Holmes";  
   var d=document.getElementById("Movie1");
