@@ -85,7 +85,7 @@ function BS(){
 function BBFL(){
     var a= document.getElementById("ddText");
     a.innerHTML="Bad Boys For Life";
-    pic.src="Poster/BBFL.jpg";
+    pic.src="POSTER/BBFL.jpg";
     var b=document.getElementById("Movie");
     b.value="Bad Boys For Life";
   var d=document.getElementById("Movie1");
