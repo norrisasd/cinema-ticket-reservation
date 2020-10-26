@@ -13,7 +13,7 @@
         $password = stripslashes($_REQUEST['password']);
         $password = mysqli_real_escape_string($db,$password);
 
-        $query = "INSERT into user (fullname, username, email, password) VALUES('$fullname', '$username','$email','".md5($password)."')";
+        $query = "INSERT into `user` (fullname, username, email, password) VALUES('$fullname', '$username','$email','".md5($password)."')";
         $result = mysqli_query($db,$query);
         if($result){
             echo '<script>

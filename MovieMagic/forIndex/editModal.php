@@ -1,5 +1,8 @@
 <?php
-    $query="SELECT * FROM ticket WHERE ticketID=$ticketID";
+    if($ticketID == NULL){
+        echo'';
+    }else{
+        $query="SELECT * FROM ticket WHERE ticketID='$ticketID'";
     $res = mysqli_query($db,$query)or die(mysqli_error($db));
     $resCh = mysqli_num_rows($res);
     if($resCh>0){
@@ -10,6 +13,8 @@
             $special=$row['special'];
         }
     }
+    }
+    
 
 ?>
 <form action="" method="POST">

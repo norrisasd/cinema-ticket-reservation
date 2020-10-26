@@ -8,10 +8,10 @@
             $password = stripslashes($_REQUEST['password']);
             $password = mysqli_real_escape_string($db,$password);
 
-            $query = "SELECT * FROM user WHERE username='$username'
+            $query = "SELECT * FROM `user` WHERE username='$username'
 and password='".md5($password)."' limit 1";
 
-            $result = mysqli_query($db,$query);
+            $result = mysqli_query($db,$query) or die(mysqli_error($db));
             $rows = mysqli_num_rows($result);
             if($rows==1){
                $_SESSION['username'] = $username;
